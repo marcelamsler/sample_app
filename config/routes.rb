@@ -14,6 +14,8 @@ SampleApp::Application.routes.draw do
 
   match '/signin', to: 'static_pages#signin'
 
+  match '/signup',  to: 'users#new'
+
 
 
 
