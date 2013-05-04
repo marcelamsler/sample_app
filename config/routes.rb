@@ -1,6 +1,6 @@
 SampleApp::Application.routes.draw do
-  
-  match '/signup', to: 'users#new'
+
+  resources :users
 
   root to: 'static_pages#home'
 
@@ -13,6 +13,8 @@ SampleApp::Application.routes.draw do
   match '/help', to: 'static_pages#help'
 
   match '/signin', to: 'static_pages#signin'
+
+
 
 
 

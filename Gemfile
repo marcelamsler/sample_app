@@ -16,6 +16,7 @@ gem 'guard-spork', '1.2.0'
 gem 'spork', '0.9.2'
 gem 'rb-inotify', '~> 0.9'
 gem 'annotate', '2.5.0'
+gem 'factory_girl_rails', '4.1.0'
 
 end
 
